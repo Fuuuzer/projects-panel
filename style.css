@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+button {
+  border: 0;
+  background: none;
+  color: #fff;
+}
+
+.card-1 {
+  background-image: url('/img/paris.jpg');
+}
+
+.card-2 {
+  background-image: url('/img/forest.jpg');
+}
+
+.card-3 {
+  background-image: url('/img/iceland.jpg');
+}
+
+.card-4 {
+  background-image: url('/img/river.jpg');
+}
+
+.card-5 {
+  background-image: url('/img/tree.jpg');
+}
+
+.container {
+  max-width: 1000px;
+  max-height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: #181818;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 30px 50px;
+}
+
+.info > button {
+  border: 1px solid #A7A7A7;
+  padding: 15px 15px;
+  max-height: 45px;
+  max-width: 160px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__p {
+  color: #666666;
+  max-width: 300px;
+}
+
+.info__p p > strong {
+  color: #fff;
+}
+
+.cards {
+  /* background: red; */
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+.card {
+  /* background: #F4F4F4; */
+  display: flex;
+  align-items: end;
+  font-size: 24px;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #181818;
+  font-weight: 500;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.fa-arrow-right {
+  rotate: 320deg;
+  color: #A7A7A7;
+}
+
+.active {
+  flex: 5;
+  justify-content: initial;
+  transition: 0.5s ease;
+}
+
+
