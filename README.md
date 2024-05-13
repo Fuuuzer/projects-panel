@@ -2,4 +2,4 @@
 
 <p>When you click in the pictures they will be bigger</p>
 
-![2024-05-1223-08-29-ezgif com-crop](https://github.com/Fuuuzer/projects-panel/assets/86896140/3a220e95-6963-4249-baac-e0090db7fc38)
+![2024-05-1223-08-29-ezgif com-video-to-gif-converter](https://github.com/Fuuuzer/projects-panel/assets/86896140/ca07855c-e320-44a0-8948-f5530967b305)
